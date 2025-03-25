@@ -24,5 +24,3 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		last->next = new;
 	}
 }
-
-// Usa doble puntero **lst para poder modificar el puntero original si la lista está vacía
