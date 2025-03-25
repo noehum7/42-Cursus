@@ -23,11 +23,15 @@ Programa que simula el comportamiento de tuberías en la shell, permitiendo ejec
 ### so_long
 Pequeño juego 2D desarrollado utilizando la biblioteca gráfica MinilibX.
 
+### push_swap
+Algoritmo de ordenación que manipula dos pilas con un conjunto limitado de operaciones para ordenar datos con el menor número de movimientos posible.
+
 ## 🔧 Tecnologías utilizadas
 - Lenguaje C para todos los proyectos
 - Makefile para la compilación
 - MinilibX para proyectos gráficos
 - Conceptos de sistemas UNIX
+- Algoritmos y estructuras de datos
 
 ## 📋 Requisitos
 - Compilador GCC
@@ -57,7 +61,6 @@ Los proyectos han sido testeados utilizando diversas herramientas y casos de pru
 ## 📄 Licencia
 Este proyecto está bajo la Licencia MIT - vea el archivo [LICENSE](LICENSE) para más detalles.
 
-...
 
 ## ⚠️ Aviso importante
 Este repositorio contiene soluciones para proyectos de 42. Si eres estudiante de 42:
