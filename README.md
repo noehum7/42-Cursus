@@ -26,18 +26,23 @@ Pequeño juego 2D desarrollado utilizando la biblioteca gráfica MinilibX.
 ### push_swap
 Algoritmo de ordenación que manipula dos pilas con un conjunto limitado de operaciones para ordenar datos con el menor número de movimientos posible.
 
+### Philosophers
+Solución al problema clásico de sincronización de los filósofos cenando, implementando multithreading y manejo de recursos compartidos para evitar condiciones de carrera y deadlocks.
+
 ## 🔧 Tecnologías utilizadas
 - Lenguaje C para todos los proyectos
 - Makefile para la compilación
 - MinilibX para proyectos gráficos
 - Conceptos de sistemas UNIX
 - Algoritmos y estructuras de datos
+- Multithreading y sincronización
 
 ## 📋 Requisitos
 - Compilador GCC
 - Make
 - Entorno UNIX/Linux (para la mayoría de proyectos)
-- Biblioteca X11 y XShm (para proyectos gráficos)
+- Biblioteca MinilibX (para proyectos gráficos)
+- Biblioteca pthread para multithreading
 
 ## ⚙️ Compilación y ejecución
 Cada proyecto contiene su propio Makefile con las siguientes reglas estándar:
@@ -60,7 +65,6 @@ Los proyectos han sido testeados utilizando diversas herramientas y casos de pru
 
 ## 📄 Licencia
 Este proyecto está bajo la Licencia MIT - vea el archivo [LICENSE](LICENSE) para más detalles.
-
 
 ## ⚠️ Aviso importante
 Este repositorio contiene soluciones para proyectos de 42. Si eres estudiante de 42:
