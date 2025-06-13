@@ -29,6 +29,12 @@ Algoritmo de ordenación que manipula dos pilas con un conjunto limitado de oper
 ### Philosophers
 Solución al problema clásico de sincronización de los filósofos cenando, implementando multithreading y manejo de recursos compartidos para evitar condiciones de carrera y deadlocks.
 
+### Minishell
+Implementación de una shell básica que simula el comportamiento de bash, incluyendo manejo de comandos, pipes, redirecciones, variables de entorno y built-ins.
+
+### NetPractice
+Ejercicios prácticos de configuración de redes TCP/IP, subnetting, y configuración de direcciones IP para comprender los fundamentos de networking.
+
 ## 🔧 Tecnologías utilizadas
 - Lenguaje C para todos los proyectos
 - Makefile para la compilación
@@ -36,6 +42,7 @@ Solución al problema clásico de sincronización de los filósofos cenando, imp
 - Conceptos de sistemas UNIX
 - Algoritmos y estructuras de datos
 - Multithreading y sincronización
+- Redes TCP/IP y protocolos de red
 
 ## 📋 Requisitos
 - Compilador GCC
