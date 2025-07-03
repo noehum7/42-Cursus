@@ -1,7 +1,7 @@
 # 42 Cursus - Proyectos Common Core 🚀
 
 ## 📝 Descripción
-Este repositorio contiene una colección de proyectos desarrollados durante mi formación en 42. Cada carpeta representa un proyecto individual que aborda diferentes conceptos de programación en C, desde operaciones básicas con listas enlazadas hasta proyectos más complejos como la redirección de tuberías y la visualización gráfica.
+Este repositorio contiene una colección de proyectos desarrollados durante mi formación en 42. Cada carpeta representa un proyecto individual que aborda diferentes conceptos de programación en C y C++, desde operaciones básicas con listas enlazadas hasta proyectos más complejos como la implementación de una shell funcional (Minishell), la redirección de tuberías, la programación concurrente y la programación orientada a objetos.
 
 ## 📂 Proyectos incluidos
 
@@ -35,6 +35,9 @@ Implementación de una shell básica que simula el comportamiento de bash, inclu
 ### NetPractice
 Ejercicios prácticos de configuración de redes TCP/IP, subnetting, y configuración de direcciones IP para comprender los fundamentos de networking.
 
+### CPP Modules 00-04
+Introducción completa al lenguaje C++ y la programación orientada a objetos, cubriendo desde conceptos básicos hasta herencia, polimorfismo y clases abstractas.
+
 ## 🔧 Tecnologías utilizadas
 - Lenguaje C para todos los proyectos
 - Makefile para la compilación
@@ -43,9 +46,11 @@ Ejercicios prácticos de configuración de redes TCP/IP, subnetting, y configura
 - Algoritmos y estructuras de datos
 - Multithreading y sincronización
 - Redes TCP/IP y protocolos de red
+- Programación orientada a objetos (POO)
 
 ## 📋 Requisitos
 - Compilador GCC
+- Compilador G++ (para proyectos C++)
 - Make
 - Entorno UNIX/Linux (para la mayoría de proyectos)
 - Biblioteca MinilibX (para proyectos gráficos)
@@ -85,7 +90,9 @@ Este repositorio contiene soluciones para proyectos de 42. Si eres estudiante de
 <div align="center">
     <p>Desarrollado con ❤️ durante mi formación en el campus 42 Málaga</p>
     <br>
-    <img src="https://img.shields.io/badge/Lenguaje-C-blue?style=for-the-badge&logo=c" alt="Lenguaje C"/>
-    <img src="https://img.shields.io/badge/Norma-42-red?style=for-the-badge" alt="Norma 42"/>
+    <img src="https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
+    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+    <img src="https://img.shields.io/badge/42-Málaga-008000?style=for-the-badge&logo=42&logoColor=white&labelColor=8A2BE2" alt="42 Málaga"/>
+    <img src="https://img.shields.io/badge/Norminette-42-00babc?style=for-the-badge&logo=42&logoColor=white" alt="Norminette"/>
     <img src="https://img.shields.io/badge/Licencia-MIT-yellow?style=for-the-badge" alt="Licencia"/>
 </div>
