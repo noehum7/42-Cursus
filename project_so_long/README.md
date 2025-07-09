@@ -1,6 +1,8 @@
 # So_long 🎮
 
-![Minion Map](/project_so_long/so_long/img/minion_map.png)
+<div align="center">
+	<img src="../project_so_long/so_long/img/minion_map.png" alt="Minion Map" width="600"/>
+</div>
 
 ## 📝 Descripción
 So_long es un pequeño juego 2D desarrollado en C utilizando la biblioteca gráfica MinilibX. El jugador debe recolectar todos los coleccionables y llegar a la salida evitando obstáculos, implementando mecánicas básicas de juego y gestión de eventos.
