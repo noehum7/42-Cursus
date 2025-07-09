@@ -38,22 +38,26 @@ Ejercicios prácticos de configuración de redes TCP/IP, subnetting, y configura
 ### CPP Modules 00-04
 Introducción completa al lenguaje C++ y la programación orientada a objetos, cubriendo desde conceptos básicos hasta herencia, polimorfismo y clases abstractas.
 
+### cub3D
+Motor gráfico 3D tipo raycasting que simula un entorno tridimensional estilo Wolfenstein 3D, utilizando técnicas de renderizado en tiempo real y manejo avanzado de gráficos.
+
 ## 🔧 Tecnologías utilizadas
 - Lenguaje C para todos los proyectos
 - Makefile para la compilación
-- MinilibX para proyectos gráficos
+- MinilibX y MLX42 para proyectos gráficos
 - Conceptos de sistemas UNIX
 - Algoritmos y estructuras de datos
 - Multithreading y sincronización
 - Redes TCP/IP y protocolos de red
 - Programación orientada a objetos (POO)
+- Raycasting y renderizado 3D
 
 ## 📋 Requisitos
 - Compilador GCC
 - Compilador G++ (para proyectos C++)
 - Make
 - Entorno UNIX/Linux (para la mayoría de proyectos)
-- Biblioteca MinilibX (para proyectos gráficos)
+- Biblioteca MinilibX y MLX42 (para proyectos gráficos)
 - Biblioteca pthread para multithreading
 
 ## ⚙️ Compilación y ejecución
