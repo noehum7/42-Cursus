@@ -41,8 +41,11 @@ Introducción completa al lenguaje C++ y la programación orientada a objetos, c
 ### cub3D
 Motor gráfico 3D tipo raycasting que simula un entorno tridimensional estilo Wolfenstein 3D, utilizando técnicas de renderizado en tiempo real y manejo avanzado de gráficos.
 
+### CPP Modules 05-09
+Continuación avanzada del aprendizaje de C++ y POO, enfocándose en manejo de excepciones, casting, templates avanzados, contenedores STL y algoritmos complejos.
+
 ## 🔧 Tecnologías utilizadas
-- Lenguaje C para todos los proyectos
+- Lenguaje C y C++.
 - Makefile para la compilación
 - MinilibX y MLX42 para proyectos gráficos
 - Conceptos de sistemas UNIX
@@ -51,6 +54,9 @@ Motor gráfico 3D tipo raycasting que simula un entorno tridimensional estilo Wo
 - Redes TCP/IP y protocolos de red
 - Programación orientada a objetos (POO)
 - Raycasting y renderizado 3D
+- Templates y programación genérica
+- STL (Standard Template Library)
+- Manejo de excepciones
 
 ## 📋 Requisitos
 - Compilador GCC
