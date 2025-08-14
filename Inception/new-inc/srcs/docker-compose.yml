@@ -1,0 +1,88 @@
+services:
+  nginx:
+    build: ./requirements/nginx
+    image: nginx
+    container_name: nginx
+    ports:
+      - "443:443"
+    volumes:
+      - wordpress_volume:/var/www/html
+    depends_on:
+      - wordpress
+    restart: unless-stopped
+    networks:
+      - dreamscape
+    env_file:
+      - ../.env
+
+  wordpress:
+    build: ./requirements/wordpress
+    image: wordpress
+    container_name: wordpress
+    volumes:
+      - wordpress_volume:/var/www/html
+    depends_on:
+      - mariadb
+    restart: unless-stopped
+    networks:
+      - dreamscape
+    environment:
+      WORDPRESS_DB_HOST: mariadb
+      WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
+      WORDPRESS_DB_USER: ${MYSQL_USER}
+      WORDPRESS_DB_PASSWORD_FILE: /run/secrets/db_password
+    secrets:
+      - db_password
+      - credentials
+      - wp_salts
+    env_file:
+      - ../.env
+
+  mariadb:
+    build: ./requirements/mariadb
+    image: mariadb
+    container_name: mariadb
+    volumes:
+      - mariadb_volume:/var/lib/mysql
+    restart: unless-stopped
+    networks:
+      - dreamscape
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD_FILE: /run/secrets/db_password
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db_root_password
+    secrets:
+      - db_password
+      - db_root_password
+    env_file:
+      - ../.env
+
+networks:
+  dreamscape:
+    driver: bridge
+
+volumes:
+  wordpress_volume:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/nporras-/data/wordpress
+  mariadb_volume:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/nporras-/data/mysql
+
+secrets:
+  db_password:
+    file: ../secrets/db_password.txt
+  db_root_password:
+    file: ../secrets/db_root_password.txt
+  credentials:
+    file: ../secrets/credentials.txt
+  wp_salts:
+    file: ../secrets/wp_salts
+

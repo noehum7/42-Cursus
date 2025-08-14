@@ -44,19 +44,28 @@ Motor gráfico 3D tipo raycasting que simula un entorno tridimensional estilo Wo
 ### CPP Modules 05-09
 Continuación avanzada del aprendizaje de C++ y POO, enfocándose en manejo de excepciones, casting, templates avanzados, contenedores STL y algoritmos complejos.
 
+### ft_irc
+Implementación completa de un servidor IRC en C++ que permite comunicación en tiempo real entre múltiples clientes, incluyendo canales, mensajes privados y un bot funcional.
+
+### Inception
+Proyecto de administración de sistemas que virtualiza múltiples servicios usando Docker Compose, creando una infraestructura completa con NGINX, WordPress y MariaDB.
+
 ## 🔧 Tecnologías utilizadas
-- Lenguaje C y C++.
+- Lenguajes C y C++.
 - Makefile para la compilación
 - MinilibX y MLX42 para proyectos gráficos
 - Conceptos de sistemas UNIX
 - Algoritmos y estructuras de datos
 - Multithreading y sincronización
-- Redes TCP/IP y protocolos de red
+- Protocolos de red (IRC, TCP/IP, HTTP/HTTPS)
 - Programación orientada a objetos (POO)
 - Raycasting y renderizado 3D
 - Templates y programación genérica
 - STL (Standard Template Library)
 - Manejo de excepciones
+- Docker y Docker Compose para virtualización
+- SSL/TLS para comunicaciones seguras
+- DevOps y administración de sistemas
 
 ## 📋 Requisitos
 - Compilador GCC
@@ -65,6 +74,8 @@ Continuación avanzada del aprendizaje de C++ y POO, enfocándose en manejo de e
 - Entorno UNIX/Linux (para la mayoría de proyectos)
 - Biblioteca MinilibX y MLX42 (para proyectos gráficos)
 - Biblioteca pthread para multithreading
+- Docker y Docker Compose (para Inception)
+- Cliente IRC compatible (para ft_irc)
 
 ## ⚙️ Compilación y ejecución
 Cada proyecto contiene su propio Makefile con las siguientes reglas estándar:
@@ -102,6 +113,7 @@ Este repositorio contiene soluciones para proyectos de 42. Si eres estudiante de
     <br>
     <img src="https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
     <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+	<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
     <img src="https://img.shields.io/badge/42-Málaga-008000?style=for-the-badge&logo=42&logoColor=white&labelColor=8A2BE2" alt="42 Málaga"/>
     <img src="https://img.shields.io/badge/Norminette-42-00babc?style=for-the-badge&logo=42&logoColor=white" alt="Norminette"/>
     <img src="https://img.shields.io/badge/Licencia-MIT-yellow?style=for-the-badge" alt="Licencia"/>
