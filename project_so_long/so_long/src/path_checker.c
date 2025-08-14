@@ -31,6 +31,11 @@ static void	fill(t_game *game, char **map, t_uint x, t_uint y)
 		return ;
 	if (map[y][x] == WALL || map[y][x] == 'F')
 		return ;
+	if (map[y][x] == EXIT)
+	{
+		map[y][x] = 'F';
+		return ;
+	}
 	map[y][x] = 'F';
 	if (x > 0)
 		fill(game, map, x - 1, y);
